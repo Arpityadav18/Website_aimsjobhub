@@ -15,7 +15,7 @@ const Home = ()=>{
         </div> */}
         <div >
           {/* img */}
-          <img  className = "h-full "src="src/components/image1.webp" alt="consulting" width = "1500px"   />
+          <img  className = "  "src="src/components/Your paragraph text.png" alt="consulting" width = "1500px"   />
         </div>
       </div>
     )

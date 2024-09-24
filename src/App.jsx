@@ -1,17 +1,25 @@
 import { useState } from 'react'
-import Home from './components/Home/Home'
-// import Navbar from './components/Navbar/Navbar'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
+import { DarkModeProvider } from './Componets/DarkModeContext'
+import Header from './Section/Header'
+import Home from './Section/Home'
+import Footer from './Section/Footer'
+import Services from './Section/Services'
+import About from './Section/About'
+import Contact from './Section/Contact'
 function App() {
 
 
   return (
     <>
-    {/* <Navbar></Navbar> */}
-    <Header/>
-    <Home/>
-    <Footer></Footer>
+    <DarkModeProvider>
+      <Header></Header>
+      <Home>
+      </Home>
+     <About></About>
+     <Services></Services>
+     <Contact></Contact>
+      <Footer></Footer>
+    </DarkModeProvider>
     </>
   )
 }
