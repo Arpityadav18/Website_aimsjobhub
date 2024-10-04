@@ -3,6 +3,8 @@ import { useDarkMode } from '../Componets/DarkModeContext'
 import { FaInstagram,FaFacebook,FaTwitter,FaFax,FaMobile, FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 import { IoMdMail } from 'react-icons/io'
+import { FaArrowUp } from 'react-icons/fa6'
+
 const Footer = () => {
   
   const {darkMode, toggleDarkMode} = useDarkMode();
@@ -130,7 +132,18 @@ const Footer = () => {
   &copy; {new Date().getFullYear()} AIMS JOB HUB. All rights reserved.
 </div>
  </div>
+ 
+
    </footer>
+   {/* slide to top button */}
+   {/* <div id = 'icon-box' className='bg:red-600 rounded-full p-4 hover:bg-black cursor-pointer fixed lg:button-12 button-6 right-6'>
+  <Link to = 'hero' spy = {true} offset={-100} smooth = {true}>
+  <FaArrowUp className='size-5' text-white/>
+  </Link>
+   </div> */}
+   {/* dark mode */}
+ 
+
    </>
   )
 }

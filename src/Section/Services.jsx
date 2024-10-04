@@ -1,8 +1,18 @@
+// import React, { useEffect } from 'react'
+// import { DarkModeProvider ,useDarkMode} from '../Componets/DarkModeContext'
+// import aboutimg from "../assets/images/about.webp"
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'
+
 import React, { useEffect } from 'react'
+
 import { DarkModeProvider ,useDarkMode} from '../Componets/DarkModeContext'
-import aboutimg from "../assets/images/about.webp"
+// import aboutimg from "../assets/images/about.webp"
+// import {service} from '../Componets/export'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+
+
 
 
 const Services = () => {
@@ -18,7 +28,7 @@ const Services = () => {
   const {darkMode, toggleDarkMode} = useDarkMode();
   return (
     <div className={`${darkMode? 'dark bg-black':'light bg-transparent'}`}> 
-    <section className={`${darkMode? 'dark bg-gray-800':'light bg-red-100'} lg:w-[90%] w-full h-fit m-auto bg-cover bg-center rounded-xl flex flex-col justify-center items-center lg:px-20 px-6 py-20 gap-20 grid lg:grid-cols-3 grid-cols-1`}>
+    <section  id =  'services' className={`${darkMode? 'dark bg-gray-800':'light bg-red-100'} lg:w-[90%] w-full h-fit m-auto bg-cover bg-center rounded-xl  flex-col justify-center items-center lg:px-20 px-6 py-20 gap-20 grid lg:grid-cols-3 grid-cols-1`}>
  {/* first card */}
     <div class="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg lg:w-80 w-full">
   <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
