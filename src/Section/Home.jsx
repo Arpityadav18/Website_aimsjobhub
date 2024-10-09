@@ -20,6 +20,7 @@ const Home = () => {
     const {darkMode, toggleDarkMode} = useDarkMode();
   return (
     <>
+
     <div className={`${darkMode? 'dark bg-black':'light bg-white'}`}>
         {/* <section id = "home" className='w-[100%] h-[600px]" m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-20 gap-7 z-20' style={{backgroundImage:`url(${homeimg})`}}> */}
 

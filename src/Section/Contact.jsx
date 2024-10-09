@@ -28,6 +28,8 @@ const[profile,setProfile]= useState("");
   };
   const {darkMode, toggleDarkMode} = useDarkMode();
   return (
+    <>
+   <div className='bg-gray-800 text-xl font-semibold p-5 ml-1 mr-1 justify-center items-center text-center text-white w-full'>Contact US</div>
     <div className={`${darkMode? 'dark bg-black':'light bg-transparent'}`}>
       <section id = 'contact' className={`${darkMode? 'dark bg-gray-800':'light bg-purple-100'} w-[90%] h-screen m-auto lg:px-40 px-10 py-20 grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-10 rounded-xl`}>
       <div className='flex flex-col items-start justify-center gap-8'>
@@ -141,6 +143,7 @@ const[profile,setProfile]= useState("");
       </section>
     
     </div>
+    </>
   )
 }
 

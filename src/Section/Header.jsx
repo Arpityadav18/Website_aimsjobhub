@@ -3,7 +3,7 @@ import { useDarkMode } from '../Componets/DarkModeContext'
 import { Link } from 'react-scroll'
 // import { Link } from 'react-router-dom';
 import { FaXmark ,FaBars} from 'react-icons/fa6'
-import logo from "../assets/images/logo.jpeg"
+import logo from "../assets/images/logo1.jpg"
 import { useState } from 'react'
 import { FaPhoneAlt,FaUserCircle } from 'react-icons/fa'
 const Header = () => {
