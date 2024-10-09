@@ -43,14 +43,14 @@ const Footer = () => {
   <div  className='flex  justify-center items-start gap-3'>
     <IoMdMail className='text-white size-5'/>
       <p className='text-slate-200'>
-      hr.aimsjobhub@gmail.com
+      <a href="mailto:hr.aimsjobhub@gmail.com">hr.aimsjobhub@gmail.com</a>
       </p>
 
   </div>
   <div  className='flex  justify-center items-start gap-3'>
     <FaMobile className='text-white size-5'/>
       <p className='text-slate-200'>
-      8085809797
+     <a href="tel:+8085809797">8085809797</a>
       </p>
 
   </div>
@@ -59,7 +59,7 @@ const Footer = () => {
   <div  className='flex  justify-center items-start gap-3'>
     <FaFax className='text-white size-5'/>
       <p className='text-slate-200'>
-      8085809797
+      <a href="mailto:">Send email</a>
       </p>
 
   </div>
