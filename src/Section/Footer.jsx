@@ -1,3 +1,5 @@
+
+
 import React from 'react'
 import { useDarkMode } from '../Componets/DarkModeContext'
 import { FaInstagram,FaFacebook,FaTwitter,FaFax,FaMobile, FaLinkedin } from 'react-icons/fa'
@@ -10,8 +12,8 @@ const Footer = () => {
   const {darkMode, toggleDarkMode} = useDarkMode();
   return (
    <>
-   <footer className={`${darkMode? 'dark bg-black':'light bg-gray-700'} w-full m-auto lg:px-20 px-10 py-20 grid lg:grid-cols-3 grid-cols-1 justify-center items-start lg:gap-20 gap-10`} >
-  
+   <footer className={`${darkMode? 'dark bg-black':'light bg-gray-700'} w-full  m-auto lg:px-20 px-10 py-20 grid lg:grid-cols-3 grid-cols-1 justify-center items-start lg:gap-20 gap-10 `} >
+   {/* w-full  m-auto lg:px-20 px-10 py-20 grid lg:grid-cols-3 grid-cols-1 justify-center items-start lg:gap-20 gap-10 */}
 <div className='flex flex-col justify-center items-start gap-5'>
   <h1 className='text-white text-2xl font-semibold'>AIMS JOB HUB</h1>
   <p className='text-slate-200 text-justify'>
@@ -43,14 +45,14 @@ const Footer = () => {
   <div  className='flex  justify-center items-start gap-3'>
     <IoMdMail className='text-white size-5'/>
       <p className='text-slate-200'>
-      <a href="mailto:hr.aimsjobhub@gmail.com">hr.aimsjobhub@gmail.com</a>
+      hr.aimsjobhub@gmail.com
       </p>
 
   </div>
   <div  className='flex  justify-center items-start gap-3'>
     <FaMobile className='text-white size-5'/>
       <p className='text-slate-200'>
-     <a href="tel:+8085809797">8085809797</a>
+      8085809797
       </p>
 
   </div>
@@ -59,7 +61,7 @@ const Footer = () => {
   <div  className='flex  justify-center items-start gap-3'>
     <FaFax className='text-white size-5'/>
       <p className='text-slate-200'>
-      <a href="mailto:">Send email</a>
+      8085809797
       </p>
 
   </div>
@@ -124,14 +126,20 @@ const Footer = () => {
    
 
 </div> 
-
-{/* <div className='flex flex-col justify-center items-center gap-5'>
-<h1 className='text-white mt-8'>Copyright AIMS JOB HUB,All Rights Reserved</h1>
-</div> */}
-<div className="text-center text-gray-500 text-sm p-4">
+</div> 
+{/* <div className='flex flex-col justify-center items-center text-white text-center gap-10'>
   &copy; {new Date().getFullYear()} AIMS JOB HUB. All rights reserved.
+</div> */}
+<div className="fixed bottom-0 left-0 w-full h-10 bg-gray-700 p-10 flex justify-center">
+  <div className="text-center text-white text-sm p-2 mb-5">
+    &copy; {new Date().getFullYear()} AIMS JOB HUB. All rights reserved.
+  </div>
 </div>
- </div>
+
+
+
+
+ {/* </div> */}
  
 
    </footer>
@@ -149,3 +157,5 @@ const Footer = () => {
 }
 
 export default Footer
+
+

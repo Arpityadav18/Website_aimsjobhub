@@ -33,7 +33,7 @@ const About = () => {
     <section id = "about" className= {`${darkMode? 'dark bg-black':'light bg-gray-300'} w-full m-auto lg:px-40 px-10 py-20 grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-10`}>
    
       <div>
-        <img  data-aos = 'zoom-in' src={aboutimg} alt="about us"  className = "rounded-2xl lg:w-[500px] lg:h-[600px]"/>
+        <img  data-aos = 'zoom-in' src={aboutimg} alt="about us"  className = "rounded-2xl lg:w-[600px] lg:h-[800px]"/>
       </div>
   
    <div className='flex flex-col items-start justify-center gap-8'>
