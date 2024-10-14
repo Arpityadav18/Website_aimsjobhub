@@ -6,6 +6,8 @@ import homeimg from "../assets/images/home.jpg"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import { Button } from '@/components/ui/button';
+
 
 const Home = () => {
 
@@ -26,9 +28,9 @@ const Home = () => {
 
         <section id = "home" className='bg-cover bg-center w-[95%] h-[600px]  m-auto rounded-xl  flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20 ' style={{backgroundImage:`url(${homeimg})`}}>
       <h1 data-aos = 'zoom-in' className='text-6xl text-white font-semibold lg:pr-[500px] pr-0 lg:leading-[70px] leading-[60px]'>"Unlocking Your Potential, One Solution at a Time."</h1> 
-  <p data-aos = 'zoom-in' className='text-xl text-white font-semibold lg:pr-[500px] pr-0 '>At [AIMS JOB HUB], we're dedicated to delivering exceptional results for our clients, and we're always on the lookout for talented individuals to join our team of experts.  you're passionate about making a difference, driven to succeed, and committed to delivering outstanding results, we'd love to hear from you  .</p>
+  <p data-aos = 'zoom-in' className='text-xl text-white font-semibold lg:pr-[500px] pr-0 '>At [AIMS JOB HUB], we're dedicated to delivering exceptional results for our clients, and we're always on the lookout for talented individuals to join our team of experts.  you're passionate about making a difference, driven to succeed, and committed to delivering outstanding results, we'd love to hear from you  . <Button>click me</Button></p>
         </section>
-  
+   
     </div>
 
     
